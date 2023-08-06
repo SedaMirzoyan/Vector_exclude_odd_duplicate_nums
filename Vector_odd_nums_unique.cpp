@@ -68,6 +68,9 @@ int main()
     excludeOddNums(m_vec);
     printSet(m_vec);
 
+    m_vec.clear();
+    std::cout << "\nvector's size = " << m_vec.size() << std::endl;
+
     return 0;
 }
 
